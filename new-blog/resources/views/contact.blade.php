@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <title>Contact</title>
-</head>
-<body >
-    <h1>Contact</h1>
-</body>
-</html>
+@extends('layouts.app')
+
+@section('content')
+    <h1>Contact Page</h1>
+@stop
